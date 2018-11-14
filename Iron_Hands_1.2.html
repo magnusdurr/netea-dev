@@ -264,7 +264,7 @@
 
       <tr>
         <td>Drop pods</td>
-        <td colspan="2">Allows all units in the formation to deploy in a Drop Pod</td>
+        <td colspan="2">The formation may deploy in a Drop Pod</td>
         <td>+25 points</td>
       </tr>
 
@@ -306,7 +306,7 @@
       </tr>
       <tr>
         <td>0-1 Veterans</td>
-        <td colspan="2">Grant all infantry units in the formation the <i>Bionics</i> special rule</td>
+        <td colspan="2">All infantry units in the formation get the <i>Bionics</i> special rule</td>
         <td>+25 points</td>
       </tr>
       <tr>
@@ -344,6 +344,7 @@
               </tr>
             </thead>
             <tbody>
+              <!--
               <tr>
                 <td rowspan="2">0-1 Air Transport</td>
                 <td>One Landing Craft</td>
@@ -353,18 +354,12 @@
                 <td>One Thunderhawk</td>
                 <td>200 points</td>
               </tr>
+              -->
               <tr>
                 <td>Storm Talon</td>
                 <td>Two Storm Talons</td>
                 <td>200 points</td>
               </tr>
-              <!--
-              <tr>
-                <td>Thunderhawk</td>
-                <td>One Thunderhawk</td>
-                <td>200 points</td>
-              </tr>
-              -->
             </tbody>
           </table>
 
@@ -1357,10 +1352,10 @@
   </div>
 </div>
   </div>
-
-  <div class="notes">  </div>
+  <div class="notes"></div>
 </div>
 
+<!--
 <div class="unit ">
   <div class="stats">
     <span class="name">Landing Craft</span>
@@ -1404,6 +1399,7 @@
     <p>May transport twelve infantry units, Attack Bikes or Dreadnoughts; Terminator units and Dreadnoughts count as two units each; plus any six armoured vehicle units (except Dreadnoughts); Land Raiders count as one and a half units each, rounding up. Critical Hit Effect: The unit and all units being carried are destroyed. All units within 5cm suffer a hit.</p>
   </div>
 </div>
+-->
 
 <div class="unit">
   <div class="stats">
@@ -1447,7 +1443,7 @@
   <div class="notes">  </div>
 </div>
 
-
+<!--
 <div class="unit ">
   <div class="stats">
     <span class="name">Thunderhawk Gunship</span>
@@ -1523,6 +1519,7 @@
     <p>May transport eight infantry units, Attack Bikes or Dreadnoughts; Terminator units and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed.</p>
   </div>
 </div>
+-->
 
 <div class="unit ">
   <div class="stats">
@@ -1678,33 +1675,24 @@
             <span class="name">Close Combat Weapon</span>
             <span class="range">(bc)</span>
             <div class="firepower">
-              <span>Assault Weapons EA(+3) TK(D3)</span>
+              <span>Assault Weapons</span>
+              <ul class="special-rules">
+                <li><abbr title="Extra Attacks (+1)">EA(+3)</abbr></li>
+                <li><abbr title="Titan Killer (D6)">TK(D3)</abbr></li>
+              </ul>
             </div>
           </div>
         </div>
         <div class="weapon ">
           <div class="weapon-line">
-            <span class="name">Laser Burner</span>
-            <span class="range">(15cm)</span>
+            <span class="name">Corvus Assault Pod</span>
+            <span class="range"></span>
             <div class="firepower">
-              <span>Small Arms</span>
-
-              <ul class="special-rules">
-
-                <li><abbr title="Extra Attacks (+2)">EA(+2)</abbr></li>
-              </ul>
+              <span></span>
             </div>
           </div>
-          <div class="weapon-line">
-            <span class="name boolean">or</span>
-            <span class="range">(bc)</span>
-            <div class="firepower">
-              <span>Assault Weapons</span>
-              <ul class="special-rules">
-                <li><abbr title="Extra Attacks (+4)">EA(+4)</abbr></li>
-              </ul>
-            </div>
-          </div>
+        </div>
+        <div class="weapon ">
           <div class="weapon-line">
             <span class="name">Melta Cannon</span>
             <span class="range">30cm</span>
@@ -1721,9 +1709,7 @@
             <span class="range">(15cm)</span>
             <div class="firepower">
               <span>Small Arms</span>
-
               <ul class="special-rules">
-
                 <li><abbr title="Extra Attacks (+1)">EA(+1)</abbr></li>
                 <li><abbr title="Titan Killer (D6)">TK(D6)</abbr></li>
               </ul>
@@ -1740,8 +1726,10 @@
           <li>4 Void Shields</li>
           <li>Walker</li>
         </ul>
-
-        <p>May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage.</p>
+        <p>
+          May transport ten infantry units or Dreadnoughts; Dreadnoughts count as two units each.
+          May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage.
+        </p>
       </div>
     </div>
 
