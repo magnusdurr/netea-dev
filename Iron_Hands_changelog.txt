@@ -2,14 +2,16 @@ Changes from 1.1 to 1.2
 =======================
 * Points and stats aligned with approved Codex Astartes
 * Introduced Core/Support structure
+* Removed all Air Transports!
 * Character (and Venerable Dreadnought) upgrades cleaned up to avoid multiple Leader or Inspiring characters in one formation.
   - Veteran Sargents (cheap leader) only available in core formations.
-  - Venerable Dreadnoughts are now the only option to get Inspiring or Supreme Commande.
-  - Iron Father character focus change from Chaplain to Techmarine, unlocks Graviton Guns on selected units in his formation.
+  - Venerable Dreadnoughts are now the only option to get Inspiring or Supreme Commander.
+  - New Techmarine character, unlocks Graviton Guns on selected units in his formation.
 * Iron Hands Clan split into two formations: Dreadnought and Mechanized Clan to give each formation a clear role and to enable a combined arms formation to a reasonable price. Devastators are now a formation upgrade.
   - Added Land Raider Anvilarum as an option to transport Dreadnoughts
-* Assault Marines replaced by Land Speeders, and Air Transports (Thunderhawks & Landingcraft) limited to 0-1 to focus on ground/drop based play style instead of Air Assaults
-* Dreadnought Talon size and points increase to avoid spam, +25 points upgrade to deploy in Drop Pod
+* Assault Marines replaced by Land Speeders, as they fit the ground based play style better
+* Dreadnought Talon points increase to avoid spam, and an additional +25 points upgrade to deploy in Drop Pod
 * Changed Iron Hands Strike Cruiser transport capability to limit number of dropping Dreadnoughts
 * Introduced a few new Titan configurations and aligned most weapon stats with Titan Legion to make large Titans more attractive despite the "Cult of the Machine" special rule
 * Removed the "Flesh is Weak" special rule
+And a few more small changes...
